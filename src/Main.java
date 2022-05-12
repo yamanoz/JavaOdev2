@@ -2,6 +2,45 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
+
+        int mat,fiz,turkce,kimya,muzik;
+        Scanner input=new Scanner(System.in);
+        System.out.print("Matematik Notunuz :");
+        mat=input.nextInt();
+        System.out.print("Fizik Notunuz :");
+        fiz=input.nextInt();
+        System.out.print("Turkce Notunuz :");
+        turkce=input.nextInt();
+        System.out.print("Kimya Notunuz :");
+        kimya=input.nextInt();
+        System.out.print("Muzik Notunuz :");
+        muzik=input.nextInt();
+        if(mat<0 ||mat>100) mat=0;
+        if(fiz<0 ||fiz>100) fiz=0;
+        if(turkce<0 ||turkce>100) turkce=0;
+        if(kimya<0 ||kimya>100) kimya=0;
+        if(muzik<0 ||muzik>100) muzik=0;
+        double avarege=(mat+fiz+kimya+turkce+muzik)/5;
+        String durum=avarege>55? "Gecti":"Kaldi";
+        System.out.print("Durumu  :"+durum);
+
+
+
+
+
+
+
+
+
+        //kullaniciGiris();
+
+
+        //hesapMakinasi();
+
+
+    }
+
+    private static void kullaniciGiris() {
         String userName,password;
         Scanner scan=new Scanner(System.in);
         System.out.print("Kullanici Adiniz :");
@@ -31,15 +70,6 @@ public class Main {
                     break;
             }
         }
-
-
-
-
-
-
-        //hesapMakinasi();
-
-
     }
 
     private static void hesapMakinasi() {
