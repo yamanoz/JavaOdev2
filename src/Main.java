@@ -3,6 +3,48 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
+        int heat;
+        Scanner input=new Scanner(System.in);
+        System.out.print("Sıcaklik Degerine Giriniz :");
+        heat=input.nextInt();
+        if(heat<5){
+            System.out.print("Kayak yapabilirsiniz :");
+        }
+        if(heat>5 && heat<25){
+            if(heat<15){
+                System.out.print("Sinamaya Gidebilirsiniz ");
+            }
+            else{
+                System.out.print("Piknik Yapabilirsiniz");
+            }
+        }
+        if(heat>25){
+            System.out.print("Yüzmeye Gidebilirsiniz");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        //sinifGecme();
+
+
+        //kullaniciGiris();
+
+
+        //hesapMakinasi();
+
+
+    }
+
+    private static void sinifGecme() {
         int mat,fiz,turkce,kimya,muzik;
         Scanner input=new Scanner(System.in);
         System.out.print("Matematik Notunuz :");
@@ -23,21 +65,6 @@ public class Main {
         double avarege=(mat+fiz+kimya+turkce+muzik)/5;
         String durum=avarege>55? "Gecti":"Kaldi";
         System.out.print("Durumu  :"+durum);
-
-
-
-
-
-
-
-
-
-        //kullaniciGiris();
-
-
-        //hesapMakinasi();
-
-
     }
 
     private static void kullaniciGiris() {

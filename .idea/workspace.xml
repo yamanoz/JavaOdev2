@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="186bd212-1333-44ea-94bd-a8a322de53fd" name="Changes" comment="Kullanıcı Adı ile Şifre giriş yapan program tasarlandı">
+    <list default="true" id="186bd212-1333-44ea-94bd-a8a322de53fd" name="Changes" comment="Ders geçme programı tasarlandı">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -72,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652378121318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ders geçme programı tasarlandı">
+      <created>1652391185553</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652391185553</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java101 odevinde verilen hesap makinesi" />
     <MESSAGE value="Kullanıcı Adı ile Şifre giriş yapan program tasarlandı" />
-    <option name="LAST_COMMIT_MESSAGE" value="Kullanıcı Adı ile Şifre giriş yapan program tasarlandı" />
+    <MESSAGE value="Ders geçme programı tasarlandı" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ders geçme programı tasarlandı" />
   </component>
 </project>
