@@ -3,6 +3,164 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
+        boolean err=false;
+        int ay,gun;
+        String burc="";
+        Scanner input=new Scanner(System.in);
+        System.out.print("Ay :");
+        ay=input.nextInt();
+        System.out.print("Gun :");
+        gun=input.nextInt();
+
+        if(ay==1)
+        {
+            if(gun<=31&&gun>=1)
+            {
+                burc=gun<22?"Oglak":"Kova";
+                err=true;
+            }
+
+        }
+        if(ay==2)
+        {
+            if(gun<=31&&gun>=1)
+            {
+                burc = gun < 20 ? "Kova" : "Balik";
+                err=true;
+            }
+        }
+        if(ay==3)
+        {
+            if(gun<=31&&gun>=1)
+            {
+                burc=gun<21?"Balik":"Koc";
+                err=true;
+            }
+
+        }
+        if(ay==4)
+        {
+            if(gun<=30&&gun>=1)
+            {
+                burc=gun<21?"Koc":"Boga";
+                err=true;
+            }
+
+        }
+        if(ay==5)
+        {
+            if(gun<=31&&gun>=1)
+            {
+                burc=gun<22?"Boga":"Ikizler";
+                err=true;
+            }
+
+        }
+        if(ay==6)
+        {
+            if(gun<=30&&gun>=1)
+            {
+                burc=gun<22?"Ikizler":"Yengec";
+                err=true;
+            }
+
+        }
+        if(ay==7)
+        {
+            if(gun<=31&&gun>=1)
+            {
+                burc=gun<23?"Yengec":"Aslan";
+                err=true;
+            }
+
+        }
+        if(ay==8)
+        {
+            if(gun<=31&&gun>=1)
+            {
+                burc=gun<23?"Aslan":"Basak";
+                err=true;
+            }
+
+        }
+        if(ay==9)
+        {
+            if(gun<=30&&gun>=1)
+            {
+                burc=gun<23?"Basak":"Terazi";
+                err=true;
+            }
+
+        }
+        if(ay==10)
+        {
+            if(gun<=31&&gun>=1)
+            {
+                burc=gun<23?"Terazi":"Akrep";
+                err=true;
+            }
+
+        }
+        if(ay==11)
+        {
+            if(gun<=30&&gun>=1)
+            {
+                burc=gun<22?"Akrep":"Yay";
+                err=true;
+            }
+
+        }
+        if(ay==12)
+        {
+            if(gun<=31&&gun>=1)
+            {
+                burc=gun<22?"Yay":"Oglak";
+                err=true;
+            }
+
+        }
+        if(err){
+            System.out.print("Burcunuz :"+burc);
+        }
+        else
+            System.out.print("Lutfen Dogru Gun Sayisi Giriniz !!!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //enKugeGoreSiralama();
+
+
+        //havaDurum();
+
+
+        //sinifGecme();
+
+
+        //kullaniciGiris();
+
+
+        //hesapMakinasi();
+
+
+    }
+
+    private static void enKugeGoreSiralama() {
         int a,b,c;
         Scanner input=new Scanner(System.in);
         System.out.print("1. sayi :");
@@ -35,25 +193,6 @@ public class Main {
                 System.out.print("c<b<a");
             }
         }
-
-
-
-
-
-
-
-        //havaDurum();
-
-
-        //sinifGecme();
-
-
-        //kullaniciGiris();
-
-
-        //hesapMakinasi();
-
-
     }
 
     private static void havaDurum() {
