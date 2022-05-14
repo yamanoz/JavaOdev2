@@ -3,7 +3,66 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
-        ucak();
+        int dogumTarihi;
+        String burc="";
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Dogum yiliniza giriniz :");
+        dogumTarihi=sc.nextInt();
+        if(dogumTarihi%12==0)
+        {
+            burc="Maymun";
+        }
+        else if(dogumTarihi%12==1)
+        {
+            burc="Horoz";
+        }
+        else if(dogumTarihi%12==2)
+        {
+            burc="Kopek";
+        }
+        else if(dogumTarihi%12==3)
+        {
+            burc="Domuz";
+        }
+        else if(dogumTarihi%12==4)
+        {
+            burc="Fare";
+        }
+        else if(dogumTarihi%12==5)
+        {
+            burc="Okuz";
+        }
+        else if(dogumTarihi%12==6)
+        {
+            burc="Kaplan";
+        }
+        else if(dogumTarihi%12==7)
+        {
+            burc="Tavsan";
+        }
+        else if(dogumTarihi%12==8)
+        {
+            burc="Ejderha";
+        }
+        else if(dogumTarihi%12==9)
+        {
+            burc="Yilan";
+        }
+        else if(dogumTarihi%12==10)
+        {
+            burc="Ay";
+        }
+        else if(dogumTarihi%12==11)
+        {
+            burc="Koyun";
+        }
+        else {
+            System.out.print("Burcunuz bulunamadi!!!");
+        }
+        System.out.print("Cin Zodyagi Burcunuz :"+burc);
+
+
+        //ucak();
 
 
         //burcBulma();
