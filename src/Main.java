@@ -3,6 +3,72 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
+        ucak();
+
+
+        //burcBulma();
+
+
+        //enKugeGoreSiralama();
+
+
+        //havaDurum();
+
+
+        //sinifGecme();
+
+
+        //kullaniciGiris();
+
+
+        //hesapMakinasi();
+
+
+    }
+
+
+
+    private static void ucak() {
+        double perKM=0.10,Tutar;
+        int yas,KM,tip;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Mesafeyi KM cinsinden giriniz :");
+        KM=sc.nextInt();
+        System.out.print("Yasiniza giriniz :");
+        yas=sc.nextInt();
+        System.out.print("Yolculuk tipine giriniz :\n1=> Tek Yon \n2=>Gidis Donus\n:");
+        tip=sc.nextInt();
+        if(yas>=1&&KM>=1){
+
+            Tutar=perKM*KM;
+            if(yas<12){
+                Tutar=Tutar-(Tutar*0.5);
+                if(tip==2){
+                    Tutar=(Tutar-(Tutar*0.2))*2;
+                }
+            } else if (yas>12&&yas<24) {
+                Tutar=Tutar-(Tutar*0.1);
+                if(tip==2){
+                    Tutar=(Tutar-(Tutar*0.2))*2;
+                }
+
+            } else if (yas>65) {
+
+                Tutar=Tutar-(Tutar*0.3);
+                if(tip==2){
+                    Tutar=(Tutar-(Tutar*0.2))*2;
+                }
+
+            }
+            System.out.print("Toplam Tutar :" +Tutar);
+        }
+        else{
+            System.out.print("Hatali");
+        }
+
+    }
+
+    private static void burcBulma() {
         boolean err=false;
         int ay,gun;
         String burc="";
@@ -124,40 +190,6 @@ public class Main {
         }
         else
             System.out.print("Lutfen Dogru Gun Sayisi Giriniz !!!");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //enKugeGoreSiralama();
-
-
-        //havaDurum();
-
-
-        //sinifGecme();
-
-
-        //kullaniciGiris();
-
-
-        //hesapMakinasi();
-
-
     }
 
     private static void enKugeGoreSiralama() {
