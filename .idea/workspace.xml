@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="186bd212-1333-44ea-94bd-a8a322de53fd" name="Changes" comment="Ucak bileti hesaplama">
+    <list default="true" id="186bd212-1333-44ea-94bd-a8a322de53fd" name="Changes" comment="Çin zodyağı burcu bulma programı">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -100,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652520420901</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Çin zodyağı burcu bulma programı">
+      <created>1652523323034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652523323034</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +128,7 @@
     <MESSAGE value="Hava Sıcaklığı tahminine göre plan pramramı" />
     <MESSAGE value="En küçüğü bulma" />
     <MESSAGE value="Ucak bileti hesaplama" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ucak bileti hesaplama" />
+    <MESSAGE value="Çin zodyağı burcu bulma programı" />
+    <option name="LAST_COMMIT_MESSAGE" value="Çin zodyağı burcu bulma programı" />
   </component>
 </project>

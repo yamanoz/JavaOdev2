@@ -3,6 +3,54 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
 
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Yil Giriniz :");
+        int yil=sc.nextInt();
+        String artik="";
+        if(yil%4==0){
+            artik="Artik";
+            if(yil%100==0){
+                if(yil%400==0){
+                    artik="Artik";
+                }
+                else {
+                    artik="Artik yil degildir";
+                }
+            }
+
+
+        }
+        else {
+            artik="Artik yil degildir";
+        }
+        System.out.print(yil+" yil "+artik);
+        //cinZodyagi();
+
+
+        //ucak();
+
+
+        //burcBulma();
+
+
+        //enKugeGoreSiralama();
+
+
+        //havaDurum();
+
+
+        //sinifGecme();
+
+
+        //kullaniciGiris();
+
+
+        //hesapMakinasi();
+
+
+    }
+
+    private static void cinZodyagi() {
         int dogumTarihi;
         String burc="";
         Scanner sc=new Scanner(System.in);
@@ -60,31 +108,7 @@ public class Main {
             System.out.print("Burcunuz bulunamadi!!!");
         }
         System.out.print("Cin Zodyagi Burcunuz :"+burc);
-
-
-        //ucak();
-
-
-        //burcBulma();
-
-
-        //enKugeGoreSiralama();
-
-
-        //havaDurum();
-
-
-        //sinifGecme();
-
-
-        //kullaniciGiris();
-
-
-        //hesapMakinasi();
-
-
     }
-
 
 
     private static void ucak() {
